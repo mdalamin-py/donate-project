@@ -33,13 +33,13 @@ body {
     border-radius: 7px;
     color: #FFFFFF;
     border: 0;
-    padding: 15px 18px;
+    padding: 15px 15px;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
     justify-content: center;
 }
 
 .btn-title {
-    margin: 0px 630px;
+    margin: 0px 638px;
 }
 
 .money-donate {
@@ -180,7 +180,8 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
-.h-t-c{
+
+.h-t-c {
     margin: 0 215px;
     background: #FD6E0A;
     border-radius: 7px;
@@ -189,33 +190,98 @@ body {
     padding: 15px 18px;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
 }
-.us-suive{
+
+.us-suive {
     display: flex;
 }
-.us-img{
+
+.us-img {
     width: 510px;
     height: 435px;
     padding: 0px 125px;
     margin-top: 165px;
 }
-.us-title{
+
+.us-title {
     margin-top: 200px;
     color: #121212;
     font-weight: 700;
     font-size: 45px;
     padding-right: 208px;
 }
-.us-description{
+
+.us-description {
     padding-right: 215px;
     color: #707070;
     font-weight: 400;
     font-size: 18px;
 }
-.us-btn{
+
+.us-btn {
     background: #FD6E0A;
     border-radius: 7px;
     color: #FFFFFF;
     border: 0;
     padding: 15px 18px;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+
+.update-title {
+    text-align: center;
+    margin-top: 145px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 10px;
+}
+
+.update-description {
+    text-align: center;
+    padding: 0px 494px;
+    margin-bottom: 100px;
+}
+
+.email-input {
+    background: #FFF4D6;
+    height: 200px;
+    width: 900px;
+    margin-left: 325px;
+    margin-top: -50px;
+}
+
+.input-field {
+    padding: 80px 250px;
+}
+
+input[type="email"] {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding: 14px;
+    border: 0;
+    width: 230px
+}
+
+.email-subscrbtion {
+    background: #FD6E0A;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 14px 40px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    margin-left: -4px;
+}
+.footer{
+    background: #0B0D17;
+    margin-top: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-title{
+    font-family: 'Lobster';
+    color: #FF5959;
+    text-align: center;
+}
+.footer-description{
+    color: #D9DBE1;
+    text-align: center;
 }
